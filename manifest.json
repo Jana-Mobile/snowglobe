@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Jana Snowglobe",
+  "description": "Simple graphs for snowflake results",
+  "version": "1.0.1",
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "page_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "declarativeContent"
+  ],
+
+  "web_accessible_resources": [
+    "draw_chart.js"
+  ]
+}
